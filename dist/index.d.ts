@@ -6,4 +6,11 @@ interface KakaologinProps {
 }
 declare function KakaoLogin({ apiKey, success, fail, }: KakaologinProps): JSX.Element;
 
-export { KakaoLogin };
+interface GoogleLoginProps {
+    clientId: string;
+    success: Function;
+    fail: Function;
+}
+declare function GoogleLogin({ clientId, success, fail, }: GoogleLoginProps): JSX.Element;
+
+export { GoogleLogin, KakaoLogin };

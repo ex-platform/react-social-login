@@ -1819,8 +1819,17 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react@*", "@types/react@file:../node_modules/@types/react":
+"@types/react@*":
   version "17.0.20"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-17.0.20.tgz#a4284b184d47975c71658cd69e759b6bd37c3b8c"
+  integrity sha512-wWZrPlihslrPpcKyCSlmIlruakxr57/buQN1RjlIeaaTWDLtJkTtRW429MoQJergvVKc4IWBpRhWw7YNh/7GVA==
+  dependencies:
+    "@types/prop-types" "*"
+    "@types/scheduler" "*"
+    csstype "^3.0.2"
+
+"@types/react@file:../node_modules/@types/react":
+  version "17.0.18"
   dependencies:
     "@types/prop-types" "*"
     "@types/scheduler" "*"
@@ -10545,7 +10554,7 @@ typedarray@^0.0.6:
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
 
 "typescript@file:../node_modules/typescript":
-  version "4.4.2"
+  version "4.3.5"
 
 unbox-primitive@^1.0.1:
   version "1.0.1"
