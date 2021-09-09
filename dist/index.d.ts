@@ -13,4 +13,16 @@ interface GoogleLoginProps {
 }
 declare function GoogleLogin({ clientId, success, fail, }: GoogleLoginProps): JSX.Element;
 
-export { GoogleLogin, KakaoLogin };
+interface NaverloginProps {
+    clientId: string;
+    callbackUrl: string;
+    success: Function;
+    fail: Function;
+    isPopup: boolean;
+    buttonColor: string;
+    buttonType: number;
+    buttonHeight: number;
+}
+declare function NaverLogin({ clientId, callbackUrl, success, fail, isPopup, buttonColor, buttonType, buttonHeight, }: NaverloginProps): JSX.Element;
+
+export { GoogleLogin, KakaoLogin, NaverLogin };

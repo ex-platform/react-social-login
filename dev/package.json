@@ -9,7 +9,8 @@
     "react-dom": "file:../node_modules/react-dom",
     "react-scripts": "file:../node_modules/react-scripts",
     "react-social-login": "file:..",
-    "typescript": "file:../node_modules/typescript"
+    "typescript": "file:../node_modules/typescript",
+    "social-login-service": "file:../node_modules/social-login-service"
   },
   "scripts": {
     "start": "react-scripts start",
