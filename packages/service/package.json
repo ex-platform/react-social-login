@@ -1,0 +1,20 @@
+{
+  "name": "@ex-platform/social-login-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "tsc": "tsc --project tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ex-platform/react-social-login"
+  },
+  "author": "ex-platform",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ex-platform/react-social-login/issues"
+  },
+  "homepage": "https://github.com/ex-platform/react-social-login#readme"
+}
